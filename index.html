@@ -8,7 +8,10 @@
 
     <title>Dingocoin</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
     <!-- preload webfonts -->
     <link rel="preload" href="assets/vendor/fa/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="assets/vendor/fa/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
@@ -98,19 +101,16 @@
                         <div class="mx-auto">
                             <p class="lead">Dingocoin Core</p>
                             <div class="img-holder">
-                                <img style="max-width: 150px;" src="assets/img/bitcoin.png">
+                                <img style="max-width: 150px;" class="mb-4" src="assets/img/bitcoin.png">
                             </div>
-                            <br>
-                            <a href="https://github.com/dingocoin/dingocoin/releases/download/v1.15.4.0/windows-binaries.zip" target="_blank" class="btn btn-md btn-info wallet-button mb-2"><span class="fab fa-windows"></span> <span> Windows 64-bit</span></a>
-                            <br>
-                            <a href="https://github.com/dingocoin/dingocoin/releases/download/v1.15.4.0/linux-binaries.zip" target="_blank"  class="btn btn-md btn-success wallet-button mb-2"><span class="fab fa-linux"></span> <span> Linux 64-bit</span></a>
-                            <br>
-                            <a href="https://github.com/dingocoin/dingocoin/releases/tag/v1.15.4.0" target="_blank"  class="btn btn-md btn-secondary wallet-button"><span class="fab fa-apple"></span> <span> macOS</span></a>
+                            <a href="https://github.com/dingocoin/dingocoin/releases/download/v1.15.4.0/windows-binaries.zip" target="_blank" class="btn btn-md btn-info wallet-button mx-1"><span class="fab fa-windows"></span> <span> Windows 64-bit</span></a>
+                            <a href="https://github.com/dingocoin/dingocoin/releases/download/v1.15.4.0/linux-binaries.zip" target="_blank"  class="btn btn-md btn-success wallet-button mx-1"><span class="fab fa-linux"></span> <span> Linux 64-bit</span></a>
+                            <a href="https://github.com/dingocoin/dingocoin/releases/tag/v1.15.4.0" target="_blank"  class="btn btn-md btn-secondary wallet-button mx-1"><span class="fab fa-apple"></span> <span> macOS</span></a>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-12 mb-5">
+                    <div class="col-md-12 col-lg-12 mb-4">
                         <div class="mx-auto">
-                            <p class="lead">Android Wallet (coming soon)</p>
+                            <p class="lead mb-2">Android Wallet (coming soon)</p>
                             <a href="https://play.google.com/store/apps" target="_blank" class="img-holder">
                                 <img style="max-width: 150px;" src="assets/img/google_play.png">
                             </a>
@@ -180,6 +180,7 @@
             </div>
         </div>
     </section>
+
     <section class="page-section portfolio" id="start">
         <div class="container">
             <!-- Portfolio Section Heading-->
@@ -243,11 +244,6 @@
                   <a class="btn btn-sm btn-outline-secondary js-scroll-trigger" href="assets/pdf/Dingocoin_Whitepaper.pdf">White Paper</a></span>.
                  </p>
 
-                 <p><span>Mainnet Dingocoins and BSC wDingocoins are interchangeable 1:1 (minus a small fee) on our unique, decentralized
-                  <a class="btn btn-sm btn-outline-secondary js-scroll-trigger" href="https://wrap.dingocoin.org" target="_blank">wDingocoin Custodian</a>. Connect your BSC wallet today and start converting!</span>
-
-                 </span></p>
-
 
                 <p class="lead">1. <span>Get a BSC wallet</span></p>
                 <p>Get your favorite BSC wallet. Anything that supports BSC will work
@@ -256,19 +252,21 @@
                   <a class="btn btn-sm btn-outline-secondary js-scroll-trigger" href="https://academy.binance.com/en/articles/the-best-crypto-wallets-for-binance-smart-chain-bsc" target="_blank">Others</a></span>
                 </p>
 
-                <p class="lead">2. <span>Buy wDingocoin</span></p>
+                <p class="lead">2. <span>Buy wDingocoin...</span></p>
                 <p>
                   Buy wDingocoin from
                   <a class="btn btn-sm btn-outline-secondary js-scroll-trigger" href="https://pancakeswap.finance/swap?outputCurrency=0x9b208b117B2C4F76C1534B6f006b033220a681A4" target="_blank"> PancakeSwap</a></span> into your BSC wallet. Use the our smart contract address <u>0x9b208b117B2C4F76C1534B6f006b033220a681A4</u> to select output currency. <b>Do not use any other address given to you, they are fake</b>.
                 </p>
 
-                <p class="lead"><span>What wDingocoin is NOT</span></p>
-                <p><span>With wDingocoin being a BSC token, you might be expecting bullshit like 10% transaction taxes going into reflection rewards for holding. Fortunately, we don't intend to reduce into such a Ponzi scheme. </p></span>
+                <p class="lead">3. <span>... or Convert Dingocoin ⇌ wDingocoin</span></p>
+               <p><span>Mainnet Dingocoins and BSC wDingocoins are interchangeable 1:1 (minus a small fee) on our unique, decentralized
+                <a class="btn btn-sm btn-outline-secondary js-scroll-trigger" href="https://wrap.dingocoin.org" target="_blank">wDingocoin Custodian</a>. Connect your BSC wallet today and start converting!</span>
+               </span></p>
 
-                <p><span>wDingocoin’s main feature is to have no bullshit features. wDingocoin is first-and-foremost intended to be a currency (in parallel with Dingocoin). We have zero bullshit taxes, and transaction fees are kept minimally to gas fees + LP fees.</span></p>
+               <p class="lead"><span>What wDingocoin is NOT</span></p>
+               <p><span>With wDingocoin being a BSC token, you might be expecting bullshit like 10% transaction taxes going into reflection rewards for holding. Fortunately, we don't intend to reduce into such a Ponzi scheme. wDingocoin’s main feature is to have no bullshit features. wDingocoin is first-and-foremost intended to be a currency (in parallel with Dingocoin). We have zero bullshit taxes, and transaction fees are kept minimally to gas fees + LP fees.</span></p>
+               <p><span>If you’re hoping to get rich by doing nothing but hodling, it’s not gonna work. Get your ass out of the Ponzi club; get it moving and mine your own Dingocoins while emissions are still high.</span></p>
 
-                <p><span>If you’re hoping to get rich by doing nothing but hodling, it’s not gonna work. Get your ass out of the Ponzi club; get it moving and mine your own Dingocoins while emissions are still high.</span></p>
-                </div>
             </div>
         </div>
     </section>
