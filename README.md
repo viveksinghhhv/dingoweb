@@ -1,2 +1,2 @@
 # dingoweb
-Website for Dingocoin
+Website for Dingocoin.org
