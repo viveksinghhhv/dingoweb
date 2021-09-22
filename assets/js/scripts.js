@@ -90,7 +90,7 @@
             "nb_sides": 5
           },
           "image": {
-            "src": "assets/img/bitcoin.png",
+            "src": "assets/img/logo.png",
             "width": 100,
             "height": 100
           }
